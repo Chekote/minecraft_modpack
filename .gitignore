@@ -1,0 +1,13 @@
+*.log
+*.log.lck
+launcher_profiles.json
+launcher.jar
+launcher.pack.lzma
+options.txt
+assets/*
+libraries/*
+logs/*
+resourcepacks/*
+saves/*
+stats/*
+versions/*

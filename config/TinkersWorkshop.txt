@@ -10,16 +10,6 @@
 
 
 ####################
-# alpha behavior
-####################
-
-"alpha behavior" {
-    B:"Regenerate HP from food"=false
-    B:"Remove hunger"=false
-}
-
-
-####################
 # battlegear
 ####################
 
@@ -34,9 +24,7 @@ battlegear {
 ####################
 
 block {
-    I:Aggregator=3221
     I:"Air Tank"=3246
-    I:Barricade=1469
     I:"Birch Barricade"=1483
     I:"Blood Channel"=3189
     I:"Casting Channel"=3249
@@ -47,7 +35,6 @@ block {
     I:"Crafting Slab"=3243
     I:"Crafting Station"=3233
     I:"Drying Rack"=3227
-    I:"Essence Extractor"=3234
     I:"Furnace Slab"=3192
     I:"Glass Pane"=3228
     I:"Glue Block"=3219
@@ -56,11 +43,8 @@ block {
     I:"Jungle Barricade"=1487
     I:Landmine=1470
     I:"Lava Tank"=1473
-    I:"Light Crystal"=3222
     I:"Liquid Blue Slime"=3235
     I:"Liquid Cow"=3217
-    I:"Liquid Metal Flowing"=1479
-    I:"Liquid Metal Still"=1480
     I:"Meat Block"=3242
     I:"Metal Storage"=1478
     I:"Molten Aluminum"=3205
@@ -86,7 +70,7 @@ block {
     I:"Molten Steel"=3213
     I:"Molten Stone"=3215
     I:"Molten Tin"=3204
-    I:"Multi Brick"=1481
+    I:"Multi Brick"=4041
     I:"Multi Brick Fancy"=1467
     I:"Nether Lava Tank"=3186
     I:"Nether Seared Block"=3188
@@ -97,7 +81,6 @@ block {
     I:"Ores Gravel"=1488
     I:"Ores Slag"=1475
     I:Punji=3232
-    I:"Redstone Machines"=3226
     I:SDX=3247
     I:"Seared Slab"=3230
     I:"Seared Table"=1477
@@ -133,7 +116,7 @@ block {
     B:"Craft metals with Wood Patterns"=false
     B:"Craft vanilla metal blocks"=true
     B:"Deny creation of non-metal mattocks"=false
-    B:"Enable Auto-Smelt and Fortune interaction"=false
+    B:"Enable Auto-Smelt and Fortune interaction"=true
     B:"Enable mod blue slime tools"=true
     B:"Enable mod bone tools"=true
     B:"Enable mod cactus tools"=true
@@ -145,13 +128,9 @@ block {
     B:"Enable mod wooden tools"=true
     B:"Keep hunger on death"=true
     B:"Keep levels on death"=true
-    B:"Lower bronze output to 2 ingots"=false
     B:"Modifiers increase Mining Level"=true
-    B:"Remove Overworld void fog"=true
-    B:"Remove Vanilla GregTech Nerfs"=true
     B:"Remove Vanilla Tool Recipes"=false
     B:"Spawn beginner book"=true
-    B:"Turn water clear"=true
 }
 
 
@@ -186,10 +165,6 @@ equipables {
     I:Exo-Legs=14118
     I:Gloves=14111
     I:"Heart Canister"=14105
-    I:"Heavy Boots"=14110
-    I:"Heavy Chestplate"=14108
-    I:"Heavy Helmet"=14106
-    I:"Heavy Pants"=14109
     I:Knapsack=14112
     I:"Wooden Boots"=14110
     I:"Wooden Chestplate"=14108
@@ -240,16 +215,6 @@ looks {
 
 
 ####################
-# mob spawning
-####################
-
-"mob spawning" {
-    B:"Activate Blue Slime Spawns"=true
-    I:"Spawn Weight for Blue Slime"=8
-}
-
-
-####################
 # patterns and misc
 ####################
 
@@ -257,7 +222,6 @@ looks {
     I:"Armor Pattern"=14025
     I:"Blank Patterns"=14019
     I:Buckets=14101
-    I:"Essence Crystal"=14114
     I:"Golden Head"=14113
     I:Jerky=14115
     I:"Jeweled Apple"=14107
@@ -285,7 +249,7 @@ looks {
     I:"Alumite ingot return"=3
 
     # Number of ingots returned from smelting Bronze in the smeltery
-    I:"Bronze ingot return"=3
+    I:"Bronze ingot return"=4
 
     # Number of ingots returned from smelting ores in the smeltery
     I:"Ingots per ore"=2
@@ -425,8 +389,7 @@ worldgen {
     I:"Iron Surface Rarity"=400
     I:"Nether Ores Density"=8
     I:"Silver Bush Density"=1
-    I:"Silver Bush Rarity"=8
-    I:"Slime Island Rarity"=450
+    I:"Slime Island Rarity"=1450
     I:"Tin Bush Density"=2
     I:"Tin Bush Max Y"=40
     I:"Tin Bush Min Y"=0
@@ -452,7 +415,6 @@ worldgen {
     B:"Generate Essence Bushes"=true
     B:"Generate Gold Bushes"=true
     B:"Generate Iron Bushes"=true
-    B:"Generate Silver Bushes"=true
     B:"Generate Surface Aluminum"=true
     B:"Generate Surface Copper"=true
     B:"Generate Surface Gold"=true

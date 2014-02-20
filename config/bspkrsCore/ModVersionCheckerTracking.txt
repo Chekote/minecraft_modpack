@@ -2,7 +2,7 @@
 
 version_check_tracker {
     S:Treecapitator=Forge 1.6.4.r09
-    S:bspkrsCore=v5.2(1.6.4)
+    S:bspkrsCore=v5.3(1.6.4)
 }
 
 

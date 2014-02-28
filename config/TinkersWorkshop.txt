@@ -155,10 +155,21 @@ dimblacklist {
 
 
 ####################
+# environment checks
+####################
+
+"environment checks" {
+    # Change env check warnings to reflect that this is a modpack.
+    B:IsModpack=false
+}
+
+
+####################
 # equipables
 ####################
 
 equipables {
+    B:Exo-Armor-Craftable=false
     I:Exo-Boots=14119
     I:Exo-Chestpiece=14117
     I:Exo-Goggles=14116
@@ -268,6 +279,7 @@ looks {
 
 superfun {
     B:"All the world is Superfun"=false
+    B:Enable-TCon-Capes=true
 }
 
 

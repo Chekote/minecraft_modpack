@@ -2,6 +2,9 @@
 
 #Minimum separation between dungeons (sepration defined in chunks)
 dungeonSeparation = 5
+
+#generateWall: Generate wall on the nort, 1 to enable
+generateWall = 1
 # Chunk caves, are caves/structures generated on each chunk(if the chunk is viable)set 0 to disable, 1 to enable
 
 # Jungle caves, located around layer 40 in jugle biomes
@@ -13,6 +16,8 @@ netherMountains = 0
 # Tunnels spawn around all the world in a infinite line the chance is the aproximate distance between tunnels in chunks
 # Abandoned mineshafts go around layer 40
 mineshafts = 0
+# Deep roads, located around layer 8 (WIP)
+deepRoads = 0
 #IDs
 #First item ID
 itemID = 8000
@@ -38,3 +43,4 @@ disableItemsToSpawnDungeons = false
 enableCapsulesInSurvival = true
 #registerModItemsToChests, if set to false items from this mod will won't be automatically added to chest lists
 registerModItemsToChests = true
+overridePlayerModel = false

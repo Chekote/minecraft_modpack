@@ -1,4 +1,5 @@
 biomes = Ocean
+#chance = 45
 chance = 0
 mob = triton
 icon = 10

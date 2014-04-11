@@ -129,6 +129,7 @@ block {
     B:"Keep hunger on death"=true
     B:"Keep levels on death"=true
     B:"Modifiers increase Mining Level"=true
+    B:"Remove Vanilla Tool Effectiveness"=false
     B:"Remove Vanilla Tool Recipes"=false
     B:"Spawn beginner book"=true
 }
@@ -233,6 +234,7 @@ looks {
     I:"Armor Pattern"=14025
     I:"Blank Patterns"=14019
     I:Buckets=14101
+    I:"Creative Modifier Item"=14120
     I:"Golden Head"=14113
     I:Jerky=14115
     I:"Jeweled Apple"=14107
